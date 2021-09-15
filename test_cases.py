@@ -3,7 +3,7 @@ from ReadYml import ReadYml
 import pytest
 
 
-class Test_cases:
+class Test_Cases:
 
     @pytest.mark.parametrize('data', ReadYml().get_testcase_data('testcase.yml'))
     def test_phonelocation(self, data):
@@ -14,5 +14,5 @@ class Test_cases:
 
 
 if __name__ == '__main__':
-    A = Test_cases()
+    A = Test_Cases()
     A.test_phonelocation(ReadYml().get_testcase_data('testcase.yml'))
