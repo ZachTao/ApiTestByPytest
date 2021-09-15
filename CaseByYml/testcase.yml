@@ -1,0 +1,35 @@
+Mobilelocationquery:
+    method: get
+    url: http://apis.juhe.cn/mobile/get
+    params:
+        phone : 18320749913
+        key: cbc373b0719df7a8e129b0128a5a94a4
+        dtype: json
+
+DriverQuestionBank:
+    method: post
+    url: http://v.juhe.cn/jztk/query
+    params:
+        subject: 4
+        model: c1
+        testType: rand
+        key: fd85cd364f0dd4827c41b6abd6a21312
+        dtype: json
+
+Starluck:
+    method: get
+    url: http://web.juhe.cn/constellation/getAll
+    params:
+        consName: 白羊座
+        type: week
+        key: cb5e735b906c28de5ba2fc585fda8afc
+        dtype: json
+
+DefenceYQ:
+    method: get
+    url: http://apis.juhe.cn/springTravel/query
+    params:
+        from: 10017
+        to: 10018
+        key: 7e3bec36669bd29eed10ce14dd6df5b4
+        dtype: json
