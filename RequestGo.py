@@ -9,9 +9,11 @@ class ReqGo:
         try:
             if method == 'post':
                 bak_result = ReqGo.session.request('post', url, params)
+                print(bak_result.text)
                 return bak_result.json()
             elif method == 'get':
                 bak_result = ReqGo.session.request('get', url, params)
+                print(bak_result.text)
                 return bak_result
             elif method == 'put':
                 bak_result = ReqGo.session.request('put', url, params)

@@ -1,0 +1,6 @@
+# pip install -r requrement.txt 批量安装库文件
+pytest-html
+pytest-xdist
+pytest-ordering
+pytest-rerunfailures
+allure-pytest
