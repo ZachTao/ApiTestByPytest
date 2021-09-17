@@ -18,6 +18,7 @@ class ReadYml:
         methods = []
         urls = []
         paramss = []
+        asserts = []
         curpath = os.path.dirname(os.path.realpath(__file__))  # 获取文件目录
         cfgpath = os.path.join(curpath, 'CaseByYml/testcase.yml')
         with open(cfgpath, mode='r', encoding='utf-8') as f:
@@ -32,17 +33,19 @@ class ReadYml:
                     urls.append(mel1)
                     mel2 = data['Mobilelocationquery']['params']
                     paramss.append(mel2)
-                    list_param = list(zip(methods, urls, paramss))
+                    mel3 = data['Mobilelocationquery']['validate']
+                    asserts.append(mel3)
+                    list_param = list(zip(methods, urls, paramss, asserts))
                     return list_param
 
     def get_drivquesbank_data(self):
         methods = []
         urls = []
         paramss = []
+        asserts = []
         curpath = os.path.dirname(os.path.realpath(__file__))  # 获取文件目录
         cfgpath = os.path.join(curpath, 'CaseByYml/testcase.yml')
         with open(cfgpath, mode='r', encoding='utf-8') as f:
-        # with open(os.getcwd()+'/CaseByYml/'+'testcase.yml', mode='r', encoding='utf-8') as f:
             datas = yaml.load(f, yaml.FullLoader)
             f.close()
             for data in datas:
@@ -54,17 +57,19 @@ class ReadYml:
                     urls.append(mel1)
                     mel2 = data['DriverQuestionBank']['params']
                     paramss.append(mel2)
-                    list_param = list(zip(methods, urls, paramss))
+                    mel3 = data['DriverQuestionBank']['validate']
+                    asserts.append(mel3)
+                    list_param = list(zip(methods, urls, paramss, asserts))
                     return list_param
 
     def get_starluck_data(self):
         methods = []
         urls = []
         paramss = []
+        asserts = []
         curpath = os.path.dirname(os.path.realpath(__file__))  # 获取文件目录
         cfgpath = os.path.join(curpath, 'CaseByYml/testcase.yml')
         with open(cfgpath, mode='r', encoding='utf-8') as f:
-        # with open(os.getcwd() + '/CaseByYml/' + 'testcase.yml', mode='r', encoding='utf-8') as f:
             datas = yaml.load(f, yaml.FullLoader)
             f.close()
             for data in datas:
@@ -76,13 +81,16 @@ class ReadYml:
                     urls.append(mel1)
                     mel2 = data['Starluck']['params']
                     paramss.append(mel2)
-                    list_param = list(zip(methods, urls, paramss))
+                    mel3 = data['Starluck']['validate']
+                    asserts.append(mel3)
+                    list_param = list(zip(methods, urls, paramss, asserts))
                     return list_param
 
     def get_defenceyq_data(self):
         methods = []
         urls = []
         paramss = []
+        asserts = []
         curpath = os.path.dirname(os.path.realpath(__file__))  # 获取文件目录
         cfgpath = os.path.join(curpath, 'CaseByYml/testcase.yml')
         with open(cfgpath, mode='r', encoding='utf-8') as f:
@@ -98,7 +106,9 @@ class ReadYml:
                     urls.append(mel1)
                     mel2 = data['DefenceYQ']['params']
                     paramss.append(mel2)
-                    list_param = list(zip(methods, urls, paramss))
+                    mel3 = data['DefenceYQ']['validate']
+                    asserts.append(mel3)
+                    list_param = list(zip(methods, urls, paramss, asserts))
                     return list_param
 
 

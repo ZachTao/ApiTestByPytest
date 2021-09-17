@@ -2,7 +2,6 @@ import pytest
 import pymysql
 from ReadYml import ReadYml
 
-
 # @pytest.fixture(scope='function')
 # def con_database():
 #     # 打开数据库连接
@@ -21,6 +20,10 @@ from ReadYml import ReadYml
 # @pytest.fixture(scope='session', autouse=True)
 # def clear_yml():
 #     ReadYml.clear_yaml()
+
+
+
+
 
 
 

@@ -6,6 +6,9 @@
         phone : 18320749913
         key: cbc373b0719df7a8e129b0128a5a94a4
         dtype: json
+    validate:
+        - resultcode: '200'
+        - reason: Return Successd!
 
 -
   DriverQuestionBank:
@@ -17,6 +20,8 @@
         testType: rand
         key: fd85cd364f0dd4827c41b6abd6a21312
         dtype: json
+    validate:
+        - reason: ok
 
 -
   Starluck:
@@ -27,6 +32,8 @@
         type: week
         key: cb5e735b906c28de5ba2fc585fda8afc
         dtype: json
+    validate:
+        - name: 白羊座
 
 -
   DefenceYQ:
@@ -37,3 +44,5 @@
         to: 10018
         key: 7e3bec36669bd29eed10ce14dd6df5b4
         dtype: json
+    validate:
+        - reason: success
