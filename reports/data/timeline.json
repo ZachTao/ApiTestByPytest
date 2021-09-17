@@ -1,0 +1,61 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "TeAmoZ",
+    "children" : [ {
+      "name" : "6008-MainThread",
+      "children" : [ {
+        "name" : "test_phonelocation[data0]",
+        "uid" : "b024478ed5896f11",
+        "parentUid" : "ee5ff4adb837fd238f4bc33a9ae61d1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631897558365,
+          "stop" : 1631897558573,
+          "duration" : 208
+        },
+        "flaky" : false,
+        "parameters" : [ "('get', 'http://apis.juhe.cn/mobile/get', {'phone': 18320749913, 'key': 'cbc373b0719df7a8e129b0128a5a94a4', 'dtype': 'json'}, [{'resultcode': '200'}, {'reason': 'Return Successd!'}])" ]
+      }, {
+        "name" : "test_defenceyq[data0]",
+        "uid" : "4c1569625cf61c1e",
+        "parentUid" : "ee5ff4adb837fd238f4bc33a9ae61d1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631897559109,
+          "stop" : 1631897559181,
+          "duration" : 72
+        },
+        "flaky" : false,
+        "parameters" : [ "('get', 'http://apis.juhe.cn/springTravel/query', {'from': 10017, 'to': 10018, 'key': '7e3bec36669bd29eed10ce14dd6df5b4', 'dtype': 'json'}, [{'reason': 'success'}])" ]
+      }, {
+        "name" : "test_driquesbank[data0]",
+        "uid" : "dabc88ea1a21d4bf",
+        "parentUid" : "ee5ff4adb837fd238f4bc33a9ae61d1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631897558578,
+          "stop" : 1631897558889,
+          "duration" : 311
+        },
+        "flaky" : false,
+        "parameters" : [ "('post', 'http://v.juhe.cn/jztk/query', {'subject': 4, 'model': 'c1', 'testType': 'rand', 'key': 'fd85cd364f0dd4827c41b6abd6a21312', 'dtype': 'json'}, [{'reason': 'ok'}])" ]
+      }, {
+        "name" : "test_starluck[data0]",
+        "uid" : "4cc2aa6db0a20093",
+        "parentUid" : "ee5ff4adb837fd238f4bc33a9ae61d1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631897558895,
+          "stop" : 1631897559103,
+          "duration" : 208
+        },
+        "flaky" : false,
+        "parameters" : [ "('get', 'http://web.juhe.cn/constellation/getAll', {'consName': '白羊座', 'type': 'week', 'key': 'cb5e735b906c28de5ba2fc585fda8afc', 'dtype': 'json'}, [{'name': '白羊座'}])" ]
+      } ],
+      "uid" : "ee5ff4adb837fd238f4bc33a9ae61d1f"
+    } ],
+    "uid" : "942bfb2a493d531749dddb960ca76691"
+  } ]
+}

@@ -1,0 +1,65 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "cases",
+    "children" : [ {
+      "name" : "Apicases_test",
+      "children" : [ {
+        "name" : "TestCases",
+        "children" : [ {
+          "name" : "test_phonelocation[data0]",
+          "uid" : "b024478ed5896f11",
+          "parentUid" : "20fb3adb87f93285074d4eecd57ab7f7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1631897558365,
+            "stop" : 1631897558573,
+            "duration" : 208
+          },
+          "flaky" : false,
+          "parameters" : [ "('get', 'http://apis.juhe.cn/mobile/get', {'phone': 18320749913, 'key': 'cbc373b0719df7a8e129b0128a5a94a4', 'dtype': 'json'}, [{'resultcode': '200'}, {'reason': 'Return Successd!'}])" ]
+        }, {
+          "name" : "test_driquesbank[data0]",
+          "uid" : "dabc88ea1a21d4bf",
+          "parentUid" : "20fb3adb87f93285074d4eecd57ab7f7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1631897558578,
+            "stop" : 1631897558889,
+            "duration" : 311
+          },
+          "flaky" : false,
+          "parameters" : [ "('post', 'http://v.juhe.cn/jztk/query', {'subject': 4, 'model': 'c1', 'testType': 'rand', 'key': 'fd85cd364f0dd4827c41b6abd6a21312', 'dtype': 'json'}, [{'reason': 'ok'}])" ]
+        }, {
+          "name" : "test_starluck[data0]",
+          "uid" : "4cc2aa6db0a20093",
+          "parentUid" : "20fb3adb87f93285074d4eecd57ab7f7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1631897558895,
+            "stop" : 1631897559103,
+            "duration" : 208
+          },
+          "flaky" : false,
+          "parameters" : [ "('get', 'http://web.juhe.cn/constellation/getAll', {'consName': '白羊座', 'type': 'week', 'key': 'cb5e735b906c28de5ba2fc585fda8afc', 'dtype': 'json'}, [{'name': '白羊座'}])" ]
+        }, {
+          "name" : "test_defenceyq[data0]",
+          "uid" : "4c1569625cf61c1e",
+          "parentUid" : "20fb3adb87f93285074d4eecd57ab7f7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1631897559109,
+            "stop" : 1631897559181,
+            "duration" : 72
+          },
+          "flaky" : false,
+          "parameters" : [ "('get', 'http://apis.juhe.cn/springTravel/query', {'from': 10017, 'to': 10018, 'key': '7e3bec36669bd29eed10ce14dd6df5b4', 'dtype': 'json'}, [{'reason': 'success'}])" ]
+        } ],
+        "uid" : "20fb3adb87f93285074d4eecd57ab7f7"
+      } ],
+      "uid" : "36a34ccabb6c548e8184de1f7cf212f9"
+    } ],
+    "uid" : "9614ab5598a04b276864cf0744ce0d93"
+  } ]
+}

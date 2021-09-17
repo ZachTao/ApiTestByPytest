@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Sep 18 00:52:38 CST 2021","Sat Sep 18 00:52:38 CST 2021","208","cases","Apicases_test","TestCases","","","test_phonelocation[data0]","电话归属地查询"
+"passed","Sat Sep 18 00:52:39 CST 2021","Sat Sep 18 00:52:39 CST 2021","72","cases","Apicases_test","TestCases","","","test_defenceyq[data0]","疫情防控查询"
+"passed","Sat Sep 18 00:52:38 CST 2021","Sat Sep 18 00:52:38 CST 2021","311","cases","Apicases_test","TestCases","","","test_driquesbank[data0]","驾考宝典查询"
+"passed","Sat Sep 18 00:52:38 CST 2021","Sat Sep 18 00:52:39 CST 2021","208","cases","Apicases_test","TestCases","","","test_starluck[data0]","运势查询"
