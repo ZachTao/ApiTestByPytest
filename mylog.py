@@ -6,7 +6,7 @@ class MyLog:
 
     def __init__(self):
         timestr = time.strftime('%Y%m%d%H%M%S', time.localtime(time.time()))
-        logfile_path = r'F:\PycharmProjects\ApiTestByPytest\logs'
+        logfile_path = r'F:/PycharmProjects/ApiTestByPytest/logs'
         log_file_name = logfile_path + '/' + timestr + '.log'
         # 日志配置
         log_config = {
